@@ -9,6 +9,7 @@ const Home = () => {
   const [searchOption, setSearchOption] = useState("shows");
 
   const isShowSearch = searchOption === "shows";
+
   const onInputChange = (e) => {
     setInput(e.target.value);
   };
