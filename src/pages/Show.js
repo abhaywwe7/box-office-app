@@ -1,6 +1,5 @@
-import React, { useEffect, useReducer } from "react";
+import React from "react";
 import { useParams } from "react-router";
-import { apiGet } from "../misc/config";
 import ShowMainData from "../components/show/ShowMainData";
 import Details from "../components/show/Details";
 import Seasons from "../components/show/Seasons";
