@@ -1,7 +1,10 @@
 import React from "react";
 import ShowCard from "./ShowCard";
 import { FlexGrid } from "../styled";
+import { useShows } from "../../misc/custom-hooks";
 const ShowGrid = ({ data }) => {
+  const [starredShows, dispatchStarred] = useShows();
+
   return (
     <FlexGrid>
       {data.map(({ show }) => (
